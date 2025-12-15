@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
 
-> This repository walks through a practical implementation of **ARIMA** and **Seasonal ARIMA (SARIMA)** models to forecast monthly champagne sales (1964–1972). It covers the complete workflow—from preparing the dataset to choosing the right model and generating reliable 24‑month forecasts.
+> This repository walks through a practical implementation of **ARIMA** and **Seasonal ARIMA (SARIMA)** models to forecast monthly champagne demand (1964–1972). It covers the complete workflow—from preparing the dataset to choosing the right model and generating reliable 24‑month forecasts.
 
 
 # Highlights
@@ -53,7 +53,7 @@ ARIMA-And-Seasonal-ARIMA/
 Clone the repository and install requirements:
 
 ```bash
-git clone https://github.com/krishnaik06/ARIMA-And-Seasonal-ARIMA.git
+git clone https://github.com/Jaskirat314276/DEMAND-ANALYSIS-ARIMA.git
 cd ARIMA-And-Seasonal-ARIMA
 python -m venv venv
 source venv/bin/activate     # macOS / Linux
@@ -70,7 +70,7 @@ jupyter notebook notebooks/01_data_preparation.ipynb
 To run the script version (if included):
 
 ```bash
-python scripts/train_sarima.py --data data/champagne_sales.csv --forecast 24
+python scripts/train_sarima.py --data data/champagne_demand.csv --forecast 24
 ```
 
 
