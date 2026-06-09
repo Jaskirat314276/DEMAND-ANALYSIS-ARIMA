@@ -1,6 +1,6 @@
 <div align="center">
 
-# Champagne Demand Forecaster
+# Demand Forecaster
 
 **Seasonal ARIMA on 9 years of Perrin Frères monthly champagne sales — as a one-shot script *and* an interactive Streamlit dashboard.**
 
